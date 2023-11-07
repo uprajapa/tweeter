@@ -1,0 +1,35 @@
+header {
+  padding-top: 150px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/images/foggy-birds.png");
+}
+
+#avatar {
+  display: flex;
+  justify-content: center;
+}
+
+#avatar img {
+  width: 190px;
+}
+#username {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+#fName{
+  font-weight: bold;
+  padding: 0;
+  font-size: 32px;
+}
+
+#lName{
+  padding-left: 10px;
+  font-size: 32px;
+}
