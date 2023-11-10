@@ -10,9 +10,10 @@ $(document).ready( function() {
 
     if (count < 0) {
       counterFound.css('color', 'red');
+    } else {
+      counterFound.css('color', '#545149');
     }
     
     counterFound.val(count);
-    // $('.counter').val(140 - count);
   });
 });
